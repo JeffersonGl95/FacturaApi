@@ -3,6 +3,7 @@ using FacturaApi.Models;
 using FacturaApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using System.Net;
 
 namespace FacturaApiTest.Tests { 
 
@@ -38,6 +39,9 @@ public class UnitTest1
             var resultado = controller.Post(facturas);
 
             // Assert
+
+
+
             var createdResult = Assert.IsType<CreatedAtActionResult>(resultado);
             Assert.Equal("PostFactura", createdResult.ActionName);
             var resultadoFactura = Assert.IsType<Factura>(createdResult.Value);
@@ -54,7 +58,7 @@ public class UnitTest1
             var resultado = controller.Post(null);
 
             var badRequest = Assert.IsType<BadRequestObjectResult>(resultado);
-            Assert.Equal("Datos inválidos", badRequest.Value);
+            Assert.Equal(HttpStatusCode.BadRequest, badRequest.Value);
         }
 
 

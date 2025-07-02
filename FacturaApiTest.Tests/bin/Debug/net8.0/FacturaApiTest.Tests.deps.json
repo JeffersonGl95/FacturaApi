@@ -12,7 +12,7 @@
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "coverlet.collector": "6.0.0",
           "xunit": "2.9.3",
-          "xunit.runner.visualstudio": "3.0.0"
+          "xunit.runner.visualstudio": "3.1.1"
         },
         "runtime": {
           "FacturaApiTest.Tests.dll": {}
@@ -1030,7 +1030,7 @@
           }
         }
       },
-      "xunit.runner.visualstudio/3.0.0": {},
+      "xunit.runner.visualstudio/3.1.1": {},
       "FacturaApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "8.0.6",
@@ -1619,12 +1619,12 @@
       "path": "xunit.extensibility.execution/2.9.3",
       "hashPath": "xunit.extensibility.execution.2.9.3.nupkg.sha512"
     },
-    "xunit.runner.visualstudio/3.0.0": {
+    "xunit.runner.visualstudio/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HggUqjQJe8PtDxcP25Q+CnR6Lz4oX3GElhD9V4oU2+75x9HI6A6sxbfKGS4UwU4t4yJaS9fBmAuriz8bQApNjw==",
-      "path": "xunit.runner.visualstudio/3.0.0",
-      "hashPath": "xunit.runner.visualstudio.3.0.0.nupkg.sha512"
+      "sha512": "sha512-gNu2zhnuwjq5vQlU4S7yK/lfaKZDLmtcu+vTjnhfTlMAUYn+Hmgu8IIX0UCwWepYkk+Szx03DHx1bDnc9Fd+9w==",
+      "path": "xunit.runner.visualstudio/3.1.1",
+      "hashPath": "xunit.runner.visualstudio.3.1.1.nupkg.sha512"
     },
     "FacturaApi/1.0.0": {
       "type": "project",

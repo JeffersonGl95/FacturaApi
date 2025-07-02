@@ -1570,16 +1570,16 @@
           }
         }
       },
-      "xunit.runner.visualstudio/3.0.0": {
+      "xunit.runner.visualstudio/3.1.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/net8.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/net8.0/_._": {}
         },
         "build": {
-          "build/net6.0/xunit.runner.visualstudio.props": {}
+          "build/net8.0/xunit.runner.visualstudio.props": {}
         }
       },
       "FacturaApi/1.0.0": {
@@ -4293,10 +4293,10 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
-    "xunit.runner.visualstudio/3.0.0": {
-      "sha512": "HggUqjQJe8PtDxcP25Q+CnR6Lz4oX3GElhD9V4oU2+75x9HI6A6sxbfKGS4UwU4t4yJaS9fBmAuriz8bQApNjw==",
+    "xunit.runner.visualstudio/3.1.1": {
+      "sha512": "gNu2zhnuwjq5vQlU4S7yK/lfaKZDLmtcu+vTjnhfTlMAUYn+Hmgu8IIX0UCwWepYkk+Szx03DHx1bDnc9Fd+9w==",
       "type": "package",
-      "path": "xunit.runner.visualstudio/3.0.0",
+      "path": "xunit.runner.visualstudio/3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4305,12 +4305,12 @@
         "build/net472/xunit.abstractions.dll",
         "build/net472/xunit.runner.visualstudio.props",
         "build/net472/xunit.runner.visualstudio.testadapter.dll",
-        "build/net6.0/xunit.abstractions.dll",
-        "build/net6.0/xunit.runner.visualstudio.props",
-        "build/net6.0/xunit.runner.visualstudio.testadapter.dll",
+        "build/net8.0/xunit.abstractions.dll",
+        "build/net8.0/xunit.runner.visualstudio.props",
+        "build/net8.0/xunit.runner.visualstudio.testadapter.dll",
         "lib/net472/_._",
-        "lib/net6.0/_._",
-        "xunit.runner.visualstudio.3.0.0.nupkg.sha512",
+        "lib/net8.0/_._",
+        "xunit.runner.visualstudio.3.1.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
     },
@@ -4326,7 +4326,7 @@
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.9.3",
-      "xunit.runner.visualstudio >= 2.9.3"
+      "xunit.runner.visualstudio >= 3.1.1"
     ]
   },
   "packageFolders": {
@@ -4401,7 +4401,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.9.3, )"
+            "version": "[3.1.1, )"
           }
         },
         "imports": [
@@ -4423,17 +4423,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "FacturaApiTest.Tests depende de xunit.runner.visualstudio (>= 2.9.3), pero no se encontró xunit.runner.visualstudio 2.9.3. Se resolvió una mejor coincidencia aproximada de xunit.runner.visualstudio 3.0.0.",
-      "libraryId": "xunit.runner.visualstudio",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

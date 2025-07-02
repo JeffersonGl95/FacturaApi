@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IntPmBDOHCkdNXHXcDX/Pu3W8v+Qry0ZCEKxTCCKJHmpAT8r0Sgc43xXXUQhbciPs/MHgSotAZLaT2fmtolBLA==",
+  "dgSpecHash": "0dyC81f6ehnXXJReKmeE3XAL+5OFHcnHl0FZvoov4XjSpPC69l5CxCNT87a+FcEX6TLFPOITHF3375XCnWIcvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\j3ffl\\Documents\\FacturaApi\\FacturaApiTest.Tests\\FacturaApiTest.Tests.csproj",
   "expectedPackageFiles": [
@@ -85,18 +85,7 @@
     "C:\\Users\\j3ffl\\.nuget\\packages\\xunit.core\\2.9.3\\xunit.core.2.9.3.nupkg.sha512",
     "C:\\Users\\j3ffl\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
     "C:\\Users\\j3ffl\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
-    "C:\\Users\\j3ffl\\.nuget\\packages\\xunit.runner.visualstudio\\3.0.0\\xunit.runner.visualstudio.3.0.0.nupkg.sha512"
+    "C:\\Users\\j3ffl\\.nuget\\packages\\xunit.runner.visualstudio\\3.1.1\\xunit.runner.visualstudio.3.1.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "FacturaApiTest.Tests depende de xunit.runner.visualstudio (>= 2.9.3), pero no se encontró xunit.runner.visualstudio 2.9.3. Se resolvió una mejor coincidencia aproximada de xunit.runner.visualstudio 3.0.0.",
-      "libraryId": "xunit.runner.visualstudio",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

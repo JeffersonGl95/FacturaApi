@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FacturaApiTest.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1999881d1e49ed2eb0f39cd0be05f7215b6aa1d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f86be181d8a994483c28f9c61591110d702d7914")]
 [assembly: System.Reflection.AssemblyProductAttribute("FacturaApiTest.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FacturaApiTest.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
